@@ -10,8 +10,8 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 接下来，利用 Opener 的 open() 方法打开链接，就可以完成验证了。这里获取到的结果就是验证后的页面源码内容。
 '''
-username = '1660076'
-password = '19936081789'
+username = '*******'//自己的校园账号，统一认证码
+password = '*********'//对应的校园账号的密码
 url = 'http://ids.cqupt.edu.cn/authserver/login?service=http%3A%2F%2Fjwc.cqupt.edu.cn%2Ftysfrz%2Findex.php'
 
 p = HTTPPasswordMgrWithDefaultRealm()
