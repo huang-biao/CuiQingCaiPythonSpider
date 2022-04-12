@@ -3,8 +3,8 @@ from urllib.request import HTTPPasswordMgrWithDefaultRealm,HTTPBasicAuthHandler,
 from urllib.request import URLError
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
-username='1660076'
-password='19936081789'
+username='*******'//自己的校园统一认证码
+password='*********'//校园账户的密码
 url='https://ids.cqupt.edu.cn/authserver/login?service=http%3A%2F%2Fjwc.cqupt.edu.cn%2Ftysfrz%2Findex.php'
 p = HTTPPasswordMgrWithDefaultRealm()
 p.add_password(None,url,username,password)
